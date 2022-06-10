@@ -43,9 +43,6 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* <Route path="/" caseSensitive={false} element={<><Header/></>} /> */}
-        {/* <Route path="/checkout" caseSensitive={false} element={<Checkout />} />
-        <Route path="/contact" caseSensitive={false} element={<Contact />} /> */}
          <Route path="/" caseSensitive={false} element={<><Header/><Home/></>}/>
       </Routes>
     </Router>
